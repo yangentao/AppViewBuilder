@@ -5,10 +5,11 @@ plugins {
     id 'signing'
 }
 String nameGroup = "dev.entao.app"
-String nameVersion = "0.5.0"
+String nameVersion = "0.6.0"
 String nameAF = "viewbuilder"
 String nameGithub = "AppViewBuilder"
 String libDesc = 'Android library, build views use DSL.'
+//检查AndroidManifest.xml中的package
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
@@ -18,7 +19,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
 
-    api 'dev.entao.app:inst:0.3.0'
+    api 'dev.entao.app:inst:0.6.0'
 }
 
 
@@ -27,6 +28,8 @@ group nameGroup
 version nameVersion
 
 android {
+    namespace = "dev.entao.app.$nameAF"
+
     compileSdk 32
 
     defaultConfig {
