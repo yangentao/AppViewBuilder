@@ -9,7 +9,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import dev.entao.app.idx
 
-//ll.constraintLayout {
+//rel.constraintLayout {
 //    relativeParams {
 //        parentFill
 //    }

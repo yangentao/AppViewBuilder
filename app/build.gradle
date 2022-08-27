@@ -12,7 +12,7 @@ android {
         targetSdk 31
         versionCode 102
         versionName "1.02"
-        archivesBaseName = "Sweet-" + versionCode
+        archivesBaseName = "Builder-" + versionCode
     }
 
     buildTypes {

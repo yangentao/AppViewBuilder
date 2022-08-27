@@ -1,5 +1,5 @@
 # AppViewBuilder
-Androi Library, build views use DSL
+Android Library, build views use DSL
 
 ### setup global application context first
 ```kotlin
@@ -8,7 +8,10 @@ AppInst.setApplicationContext(this)
 
 ### LinearLayout example
 ```kotlin
- LinearLayout(this).apply {
+contentView.linearLayout {
+    linearParams{
+        matchX().matchY()
+    }
     orientation = LinearLayout.VERTICAL
     textView {
         linearParams {

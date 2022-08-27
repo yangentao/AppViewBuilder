@@ -1,7 +1,9 @@
 package dev.entao.app
 
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
+import android.view.Gravity
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
@@ -22,6 +24,9 @@ class MainActivity : AppCompatActivity() {
                     wrapY()
                 }
                 text = "fill-x, wrap-y"
+                gravity = Gravity.CENTER
+                setTextColor(Color.RED)
+                setBackgroundColor(Color.CYAN)
             }
             textView {
                 linearParams {
@@ -29,6 +34,9 @@ class MainActivity : AppCompatActivity() {
                     height = 50.dp
                 }
                 text = "100*50"
+                gravity = Gravity.CENTER
+                setTextColor(Color.RED)
+                setBackgroundColor(Color.YELLOW)
             }
         }
 
