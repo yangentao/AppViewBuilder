@@ -1,8 +1,6 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-//    id 'maven-publish'
-//    id 'signing'
 }
 
 //检查AndroidManifest.xml中的package
@@ -12,7 +10,6 @@ ext {
     nameAF = "viewbuilder"
     nameGithub = "AppViewBuilder"
     libDesc = 'Android library, build views use DSL.'
-
 }
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
