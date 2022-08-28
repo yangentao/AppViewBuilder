@@ -8,8 +8,6 @@ import androidx.constraintlayout.widget.Barrier
 import androidx.constraintlayout.widget.ConstraintHelper
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.Guideline
-import dev.entao.app.idx
-import dev.entao.app.requireId
 
 //constraintLayout.apply {
 //    textView {

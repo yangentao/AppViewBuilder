@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "dev.entao.app.demo"
+        applicationId "dev.entao.app.builder.demo"
         minSdk 22
         targetSdk 31
         versionCode 102
@@ -53,4 +53,5 @@ dependencies {
 
 
     api project(path: ':ViewBuilder')
+    api 'dev.entao.app:inst:0.6.0'
 }

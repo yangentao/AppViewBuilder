@@ -4,7 +4,6 @@ package dev.entao.app.viewbuilder
 
 import android.view.View
 import android.widget.RelativeLayout
-import dev.entao.app.idx
 
 
 fun <T : RelativeLayout.LayoutParams> T.fill(): T {
