@@ -8,6 +8,7 @@ import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.appcompat.widget.AppCompatTextView
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.checkbox.MaterialCheckBox
@@ -122,7 +123,7 @@ fun ViewGroup.viewPager(block: ViewPager.() -> Unit): ViewPager {
 //fun ViewGroup.viewPager2(block: ViewPager2.() -> Unit): ViewPager2 {
 //    return append(block)
 //}
-fun ViewGroup.textView(block: TextView.() -> Unit): TextView {
+fun ViewGroup.textView(block: AppCompatTextView.() -> Unit): AppCompatTextView {
     return append(block)
 }
 
