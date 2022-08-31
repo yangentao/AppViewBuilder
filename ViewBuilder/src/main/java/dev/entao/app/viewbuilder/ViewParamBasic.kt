@@ -7,20 +7,6 @@ import android.widget.LinearLayout
 import android.widget.TableRow
 
 
-fun FrameParams.grav(block: Grav.() -> Unit): FrameParams {
-    Grav { g -> this.gravity = g }.apply(block)
-    return this
-}
-
-fun LinearParams.grav(block: Grav.() -> Unit): LinearParams {
-    Grav { g -> this.gravity = g }.apply(block)
-    return this
-}
-
-val FrameParams.grav: Grav get() = Grav { g -> this.gravity = g }
-val LinearParams.grav: Grav get() = Grav { g -> this.gravity = g }
-
-
 fun <T : GroupParams> T.width(value: Int): T {
     this.width = value
     return this

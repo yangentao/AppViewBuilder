@@ -6,7 +6,7 @@ plugins {
 //检查AndroidManifest.xml中的package
 ext {
     nameGroup = "dev.entao.app"
-    nameVersion = "0.7.0"
+    nameVersion = "0.8.0"
     nameAF = "viewbuilder"
     nameGithub = "AppViewBuilder"
     libDesc = 'Android library, build views use DSL.'
